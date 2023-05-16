@@ -1,0 +1,183 @@
+.re1 {
+  position: absolute;
+  width: 9vw;
+  height: 63.924vw;
+  left: 27vw;
+  top: 26.583vw;
+  background: #001BA6;
+}
+.re1:hover {
+  background:#FF0000;
+}
+.re2 {
+  position: absolute;
+  width: 18vw;
+  height: 16.924vw;
+  left: 15vw;
+  top: 60.583vw;
+  background: #FF0000;
+  animation: first 3s infinite ease;
+}
+@keyframes first {
+0% {
+    rotate: 0deg;
+}
+25% {
+    rotate: -20deg;
+}
+50% {
+    rotate: 20deg;
+}
+100% {
+    rotate: 0deg;
+}
+}
+.re2:hover {
+  background:#001BA6;
+}
+.re3 {
+  position: absolute;
+  width: 80vw;
+  height: 4.924vw;
+  left: 9vw;
+  top: 78.583vw;
+  background: #FFCD00;
+  animation: wiggle1 2.5s infinite;
+}
+@keyframes wiggle1 {
+  0% { transform: rotate(0deg); }
+ 80% { transform: rotate(0deg); }
+ 85% { transform: rotate(1deg); }
+ 95% { transform: rotate(-1deg); }
+100% { transform: rotate(0deg); }
+}
+.re3:hover {
+  background:#FF0000;
+}
+.re4 {
+  position: absolute;
+  width: 18vw;
+  height: 13.924vw;
+  left: 60vw;
+  top: 28.583vw;
+  background: #FF0000;
+  z-index: 1;
+  animation: second 3s infinite ease;
+  }
+  @keyframes second {
+  0% {
+    rotate: 0deg;
+  }
+  25% {
+    rotate: -20deg;
+  }
+  50% {
+    rotate: 20deg;
+  }
+  100% {
+    rotate: 0deg;
+  }
+  }
+.re4:hover {
+  background:#001BA6;
+}
+.cir1 {
+  width: 25.431vw;
+  height: 25.431vw;
+  background: #000000;
+  border-radius: 50%;
+  position: absolute;
+  left: 65.403vw;
+  top: 26vw;
+  z-index: 1;
+}
+.cir1:hover {
+  background:#FF0000;
+}
+.cir2 {
+  width: 17.431vw;
+  height: 17.431vw;
+  background: #FFCD00;
+  border-radius: 50%;
+  position: absolute;
+  left: 44.403vw;
+  top: 54vw;
+  z-index: 1;
+}
+.s1 {
+  position: absolute;
+  width: 50vw;
+  height: 50vw;
+  left: 40vw;
+  top: 24.583vw;
+  background: #001BA6;
+}
+.s1:hover {
+  background:#FF0000;
+}
+
+.re6 {
+  position: absolute;
+  width: 5vw;
+  height: 25.924vw;
+  left: 53vw;
+  top: 10.583vw;
+  background: #FFCD00;
+  animation: wiggle2 2.5s infinite;
+  }
+  @keyframes wiggle2 {
+  0% { transform: rotate(0deg); }
+  80% { transform: rotate(0deg); }
+  85% { transform: rotate(1deg); }
+  95% { transform: rotate(-1deg); }
+  100% { transform: rotate(0deg); }
+  }
+.re6:hover {
+  background:#FF0000;
+}
+.re7 {
+  position: absolute;
+  width: 42vw;
+  height: 4.924vw;
+  left: 9vw;
+  top: 38.583vw;
+  background: #FFCD00;
+  animation: wiggle3 2.5s infinite;
+  }
+  @keyframes wiggle3 {
+  0% { transform: rotate(0deg); }
+  80% { transform: rotate(0deg); }
+  85% { transform: rotate(1deg); }
+  95% { transform: rotate(-1deg); }
+  100% { transform: rotate(0deg); }
+  }
+.re7:hover {
+  background:#FF0000;
+}
+.re8 {
+  position: absolute;
+  width: 18vw;
+  height: 13.924vw;
+  left: 65vw;
+  top: 71.583vw;
+  background: #FF0000;
+  z-index: 1;
+  animation: third 3s infinite ease;
+  }
+  @keyframes third {
+  0% {
+    rotate: 0deg;
+  }
+  25% {
+    rotate: -20deg;
+  }
+  50% {
+    rotate: 20deg;
+  }
+  100% {
+    rotate: 0deg;
+  }
+  }
+.re8:hover {
+  background:#001BA6;
+}
